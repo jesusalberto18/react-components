@@ -4,5 +4,9 @@ import ProjectCard, UserCard from './Card';
 import NavBar from './Navbar';
 import { Button } from '.Button';
 
+/*
+ *   Creating the root element
+ */
 
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
