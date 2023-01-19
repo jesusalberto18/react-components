@@ -10,3 +10,17 @@ import { Button } from '.Button';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
+
+/*
+ *   Rendering elements
+ */
+
+root.render(
+	<>
+		<Footer />
+		<NavBAr />
+		<ProjectCard />
+		<UserCard />
+		<Button />
+	<>
+);
