@@ -1,8 +1,8 @@
 import React from 'react';
 import Footer from './Footer';
-import ProjectCard, UserCard from './Card';
+import ProjectCard, UserCard, TaskCard from './Card';
 import NavBar from './Navbar';
-import { Button } from '.Button';
+import { Button } from './Button';
 
 /*
  *   Creating the root element
@@ -22,5 +22,6 @@ root.render(
 		<ProjectCard />
 		<UserCard />
 		<Button />
+		<TaskCard />
 	<>
 );
