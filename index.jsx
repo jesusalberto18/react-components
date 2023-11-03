@@ -3,6 +3,8 @@ import Footer from './Footer';
 import ProjectCard, UserCard, TaskCard from './Card';
 import NavBar from './Navbar';
 import { Button } from './Button';
+import ReactDOM from 'react-dom';
+
 
 /*
  *   Creating the root element
@@ -17,11 +19,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
 	<>
-		<Footer />
-		<NavBAr />
-		<ProjectCard />
-		<UserCard />
-		<Button />
-		<TaskCard />
-	<>
+	 <Navbar />
+	 <Button />
+	 <ProjectCard />
+	 <UserCard />
+	 <TaskCard />
+	 <Footer />
+	</>
 );
