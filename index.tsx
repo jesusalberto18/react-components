@@ -1,11 +1,11 @@
-import React from 'react';
-import ResponsiveButton from './Button';
-import ResponsiveFooter from './Footer';
-import ResponsiveNavbar from './Navbar';
-import main from './Main';
-import header from './Header';
-import headerCss from './header-css';
-import ReactDOM from 'react-dom';
+import  { React } from 'react';
+import { ResponsiveButton } from './Button';
+import { ResponsiveFooter } from './Footer';
+import { ResponsiveNavbar } from './Navbar';
+import { main } from './Main';
+import { header } from './Header';
+import { headerCss } from './header-css';
+import { ReactDOM } from 'react-dom';
 
 
 /*
