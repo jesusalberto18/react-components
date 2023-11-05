@@ -1,9 +1,9 @@
-import React from 'react';
-import Footer from './Footer';
-import ProjectCard, UserCard, TaskCard from './Card';
-import NavBar from './Navbar';
+import { React } from 'react';
+import { Footer } from './Footer';
+import { ProjectCard, UserCard, TaskCard } from './Card';
+import { Navbar } from './Navbar';
 import { Button } from './Button';
-import ReactDOM from 'react-dom';
+import { ReactDOM } from 'react-dom';
 
 
 /*
